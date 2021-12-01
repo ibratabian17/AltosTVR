@@ -1,4 +1,4 @@
-# Set Top Box IPTV for Android TV
+# AltosTVR
 Android TV project for live Streaming. With this app we can fetch channels from file (m3u) and show in list. Select channel to play. We can use IR Remote too to navigate between channels.
 
 #### Screenshots
@@ -25,7 +25,7 @@ add m3u file in `tv/src/main/res/raw/` and run
 
 ### Libraries
 - [Leanback](https://developer.android.com/reference/android/support/v17/leanback/package-summary)
-- [vlc-example-streamplayer](https://github.com/pedroSG94/vlc-example-streamplayer)
+- [Exoplayer](https://github.com/pedroSG94/vlc-example-streamplayer)
 - [Room Persistence Library For Local Storage](https://developer.android.com/topic/libraries/architecture/room)
 - [Glide](https://github.com/bumptech/glide)
 - [Google Gson](https://github.com/google/gson)
