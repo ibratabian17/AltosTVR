@@ -1,17 +1,17 @@
 package com.synergics.stb.iptv.leanback.models;
 
-import android.arch.persistence.room.Entity;
-import android.arch.persistence.room.ForeignKey;
-import android.arch.persistence.room.Ignore;
-import android.arch.persistence.room.PrimaryKey;
-import android.support.annotation.NonNull;
+import androidx.room.Entity;
+import androidx.room.ForeignKey;
+import androidx.room.Ignore;
+import androidx.room.PrimaryKey;
+import androidx.annotation.NonNull;
 
 import com.synergics.stb.iptv.leanback.BaseApplication;
 import com.synergics.stb.iptv.leanback.models.db.MyDatabase;
 
 import java.util.List;
 
-import static android.arch.persistence.room.ForeignKey.CASCADE;
+import static androidx.room.ForeignKey.CASCADE;
 
 @Entity(tableName = "tv_categories")
 public class TVCategories {

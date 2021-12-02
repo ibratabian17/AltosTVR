@@ -1,7 +1,7 @@
 package com.synergics.stb.iptv.leanback;
 
 import android.app.Application;
-import android.arch.persistence.room.Room;
+import androidx.room.Room;
 import android.content.SharedPreferences;
 
 import com.synergics.stb.iptv.leanback.models.db.MyDatabase;
