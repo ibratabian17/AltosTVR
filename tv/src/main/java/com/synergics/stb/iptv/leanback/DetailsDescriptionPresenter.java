@@ -14,7 +14,7 @@
 
 package com.synergics.stb.iptv.leanback;
 
-import android.support.v17.leanback.widget.AbstractDetailsDescriptionPresenter;
+import androidx.leanback.widget.AbstractDetailsDescriptionPresenter;
 
 import com.synergics.stb.iptv.leanback.models.Movie;
 
